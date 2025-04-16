@@ -1,0 +1,314 @@
+    html {
+    scroll-behavior: smooth;
+    }
+      
+    body{ 
+        background-color: #e4d0a7;
+        color: #333;
+    }
+
+    header{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 60px;
+    }
+
+    h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+    .navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 10px;
+    list-style: none;
+    background-color: 	#0c97a1db;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    }
+
+    .navbar a{
+    font-size: 25px ;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    padding: 0px;
+    display: block;
+    }
+
+    .navbar a:hover{
+    background-color: rgb(55, 55, 55);
+    padding: 1px;
+    border-radius: 5px;
+    }
+
+    .dropdown{
+        position: relative;
+    }
+
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        background: white;
+        min-width: 160px;
+        top: 100%;
+        left: 0;
+        box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.2);
+        border-radius: 5px;
+    }
+
+    .dropdown-content a{
+        display: block;
+        color: black;
+        padding: 15px;
+        text-decoration: none;
+        transition: 0.25s;
+        font-size: 1.3rem;
+
+    }
+
+    .dropdown-content a:hover{
+        background: #06575dc0;
+        color: white;
+    }
+
+    .nav-links li:hover .dropdown-content{
+        display: block;
+        padding: 0px;
+    }
+
+/*Section-1*/
+
+.sec-1-3 {
+    background-color:	#0c97a1db;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .text-1{
+    width: 55%;
+    padding: 10px;
+  }
+  
+  .H-2{
+    justify-content: center;
+    font-size: 2rem;
+    margin: 10px;
+  }
+
+  .text-1, .p{
+    font-size: 1.3rem;
+    line-height: 1.3 ;
+    text-align: justify;
+  }
+
+   .img-a{
+   height: auto; 
+   width: 50%;
+   padding: 15px;
+   padding: 10px;
+  }
+
+  .img-a img{
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+/*Section 2*/
+
+.sec-2{
+    height: auto;
+    background-color:#2ec4b590;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .text-2{
+    width: 55%;
+    padding: 10px;
+  }
+
+  .text-2, .p{
+    font-size: 1.3rem;
+    line-height: 1.3 ;
+    text-align: justify;
+  }
+
+/*Section 3*/
+
+  .sec-3{
+    height: auto;
+    background-color:#2ec4b56d;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .text-3{
+    width: 55%;
+    padding: 10px;
+  }
+
+  .text-3, .p{
+    font-size: 1.3rem;
+    line-height: 1.3 ;
+    text-align: justify;
+  }
+
+  /* Card Section */
+
+.cards-container{
+    padding: 0 15px;
+}
+
+.card-body{
+    height: 200px;
+    width: 320px;
+    background-color: #b26c11e6;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.536);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+  .card-img-top{
+    display: block;
+    height: 120px;
+    max-height: 180px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+    object-fit: cover;
+  }
+
+  .card-text,p{
+    height: auto;
+    font-size: 0.85rem;
+    text-align: justify;
+    line-height: 1.2;
+  }
+
+.Header-2-1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+
+.footer-custom {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Kapstadt_Bucht.jpg/1920px-Kapstadt_Bucht.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin-top: 50px;
+  }
+  
+  .footer-custom .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+  }
+  
+  .footer-custom .nav-link {
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .footer-custom .nav-link:hover {
+    text-decoration: underline;
+    color: #f0e68c;
+  }
+  
+.nav-footer{
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-light{
+    padding: 30px ;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+@media (max-width: 770px) {
+
+  .sec-1-3,
+  .sec-2,
+  .sec-3 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text-1, .text-2, .text-3,
+  .img-a {
+    width: 100%;
+  }
+
+  .cards-container {
+    justify-content: center;
+  }
+
+  .card-body {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar a {
+    padding: 10px 0;
+    font-size: 18px;
+  }
+
+  header {
+    font-size: 40px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
